@@ -9,7 +9,7 @@
 ![httpsgithub swarupinfotech me](https://github.com/swarupinfotech/github-portfolio/assets/77630868/a331f996-1b4d-451a-941f-a15f5ae6de93)
 
 
-## View live preview [here](https://my-github-portfolio.netlify.app/)
+## View live preview [here](https://github-portfolio-flax.vercel.app/)
 
 ---
 
