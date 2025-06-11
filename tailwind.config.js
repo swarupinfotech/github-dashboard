@@ -23,13 +23,9 @@ module.exports = {
           "3xl": "5rem",
         },
       },
-
-      extend: {
-        screens: {
-          "4k": "1980px",
-        },
+      screens: {
+        "4k": "1980px",
       },
-
       colors: {
         "primary-title": "#00AEFF",
         "primary-text": "#FFFFFF",
