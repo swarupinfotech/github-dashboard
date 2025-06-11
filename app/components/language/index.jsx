@@ -12,8 +12,10 @@ function GitLanguage() {
       <div className="py-8 grid grid-cols-1 md:grid-cols-2 gap-5">
         <>
           <GlowCard identifier="repos-per-language">
-            <img
+            <Image
   src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${userData.githubUser}&layout=compact&theme=algolia&hide_border=true&&langs_count=8`}
+  width={1080}
+  height={560}
   alt="github top-langs"
   className="rounded-lg md:h-52 lg:h-64 w-full bg-primary-bg"
 />
@@ -21,8 +23,10 @@ function GitLanguage() {
           </GlowCard>
 
           <GlowCard identifier="most-commit-language">
-           <img
+            <Image
   src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${userData.githubUser}&layout=compact&theme=algolia&hide_border=true&&langs_count=8`}
+  width={1080}
+  height={560}
   alt="github top-langs"
   className="rounded-lg md:h-52 lg:h-64 w-full bg-primary-bg"
 />
@@ -32,8 +36,10 @@ function GitLanguage() {
 
         <div className="md:col-span-2">
           <GlowCard identifier="top-langs">
-            <img
+            <Image
   src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${userData.githubUser}&layout=compact&theme=algolia&hide_border=true&&langs_count=8`}
+  width={1080}
+  height={560}
   alt="github top-langs"
   className="rounded-lg md:h-52 lg:h-64 w-full bg-primary-bg"
 />
