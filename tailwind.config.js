@@ -5,21 +5,12 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  safelist: [
-    'bg-primary-bg',
-    'bg-gradient-radial',
-    'bg-gradient-conic',
-    'rounded-lg',
-    'w-full',
-    'text-primary-title',
-    'text-primary-text',
-    'text-primary-icon',
-  ],
   theme: {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       container: {
         center: true,
@@ -32,9 +23,13 @@ module.exports = {
           "3xl": "5rem",
         },
       },
-      screens: {
-        "4k": "1980px",
+
+      extend: {
+        screens: {
+          "4k": "1980px",
+        },
       },
+
       colors: {
         "primary-title": "#00AEFF",
         "primary-text": "#FFFFFF",
